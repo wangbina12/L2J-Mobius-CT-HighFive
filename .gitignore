@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -23,24 +23,30 @@
 hs_err_pid*
 replay_pid*
 
-# IDE
+# Build directories
+/build/
+/bin/
+/dist/
+
+# IDE files
 .idea/
 *.iml
+*.ipr
+*.iws
 .vscode/
-.settings/
 .project
 .classpath
+.settings/
 
-# Build
-target/
-build/
-out/
+# Temporary files
+*.tmp
+*.temp
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Config files with sensitive data
-config/*.properties
-log/
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
